@@ -1,8 +1,8 @@
 # Poalim-SuperHero
 
-### The Poalim-SuperHero writed in Swift and works for iOS 13 and above. 
-### The API that used in this project is : https://superheroapi.com/ 
-### I used ALAMOFIRE libary in ApiManager class and use it to make a JSONDecoder and the get requests from the api.
+#### The Poalim-SuperHero writed in Swift and works for iOS 13 and above. 
+#### The API that used in this project is : https://superheroapi.com/ 
+#### I used ALAMOFIRE libary in ApiManager class and use it to make a JSONDecoder and the get requests from the api.
 #### I build a nodel for the json that can takes the json and decoded it to my model(a coustom object), the name of that model is SuperHeroModel and for the search (list of SuperHeroModel's ) I created the SuperHeroSearchModel. 
 
 # Images for Example: 
