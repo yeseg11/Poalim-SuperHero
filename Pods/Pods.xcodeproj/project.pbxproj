@@ -107,12 +107,12 @@
 /* Begin PBXFileReference section */
 		02EE33925E2C9D762D220697A892F1A9 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		031CDCF4DA24A9B29D6D6F9AAAF77102 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
-		048C9B93C4C7A33AB3845C835FF60EE0 /* Pods_Poalim_SuperHeroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Poalim_SuperHeroTests.framework; path = "Pods-Poalim-SuperHeroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048C9B93C4C7A33AB3845C835FF60EE0 /* Pods_Poalim_SuperHeroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poalim_SuperHeroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		085CFC49016AF0A5A23C2D0C85F5DE95 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		0AD6C7BAEAF7EF0914E953850D1C6DC2 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		16BCC909202520CA6DEDDAE932A51232 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		22F2600AD953CFEF752B0DA56BF234EF /* Pods-Poalim-SuperHero-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Poalim-SuperHero-frameworks.sh"; sourceTree = "<group>"; };
-		2367CB4B5C7F2D6EA17261CDFC7A48A8 /* Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework; path = "Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2367CB4B5C7F2D6EA17261CDFC7A48A8 /* Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2599CA5EDCE6D273D4AF6B36F9F80BFC /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		26E5AD5BD3740330531CF521EC18352E /* Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-frameworks.sh"; sourceTree = "<group>"; };
 		2D514665DF0FFAD3E0B08D9527C6D3FF /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		54AA7CE9BA57AD2D9E13055F29D574A9 /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
 		54DBD91EA8E061F56F86A415B6F9FBCF /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		5A02CFCDD708A2BFC73DA7E4DF14B03A /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FED6566BC34BB40BF5E14FA29C2DDC5 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		601553028688607667BF5F0489DC8B0C /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
 		6592EBD2035CB62F83F9372768678012 /* Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		7510289594E3A60ACE65B456B51F2BA2 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		7815AA017132FAC51418A2DC4B0323B4 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		796019B6B11157B84BC5A792E6657F9C /* Pods-Poalim-SuperHero-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Poalim-SuperHero-acknowledgements.plist"; sourceTree = "<group>"; };
-		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif.framework; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4C1F2AEAF65E2CC429C5220F69B129 /* Pods-Poalim-SuperHeroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Poalim-SuperHeroTests.debug.xcconfig"; sourceTree = "<group>"; };
 		803BF0703C3C5AEB3ECEA1BEDE12D2DA /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
 		86A4E27A8BBDD13EF44554A6A22BF2F8 /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
@@ -161,10 +161,10 @@
 		9468174C8CF26F23DA3AF6E4B92755F8 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		973A4AF04FA57C62970CC70D42987115 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		9D0E506182F4A8021BEFBECE930A9B18 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A29D644788408E99B14CE0ADFDAB99F0 /* Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-dummy.m"; sourceTree = "<group>"; };
 		A2C72A43F81BF47E0A302832BA7C31D6 /* Pods-Poalim-SuperHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Poalim-SuperHero.debug.xcconfig"; sourceTree = "<group>"; };
-		A36D66688138579B16A709138A3DE8C4 /* Pods_Poalim_SuperHero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Poalim_SuperHero.framework; path = "Pods-Poalim-SuperHero.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36D66688138579B16A709138A3DE8C4 /* Pods_Poalim_SuperHero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poalim_SuperHero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A383DA0700A1006AE93D1CF78D5DE5D4 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		A78B276769EBDFE3F5EB1B9058790436 /* Pods-Poalim-SuperHero-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Poalim-SuperHero-Info.plist"; sourceTree = "<group>"; };
 		A7E4EC77D46B1E73CB4A7BC9B9931946 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
@@ -281,7 +281,6 @@
 				02EE33925E2C9D762D220697A892F1A9 /* Validation.swift */,
 				B5140C1B3C947D23A79C3F86A50C7F48 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -333,7 +332,6 @@
 				879B1C207BD26882097A713CB9FEC472 /* UIImageView+SwiftyGif.swift */,
 				535F6743519A7EDCF7D9CFC3C75B006B /* Support Files */,
 			);
-			name = SwiftyGif;
 			path = SwiftyGif;
 			sourceTree = "<group>";
 		};
@@ -588,7 +586,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -819,7 +817,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -854,7 +852,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -926,7 +924,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -962,7 +960,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

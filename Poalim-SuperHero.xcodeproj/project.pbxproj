@@ -15,6 +15,7 @@
 		A15DDBF2265923960080AD74 /* ConnectionCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBF1265923960080AD74 /* ConnectionCVCell.swift */; };
 		A15DDBF4265928400080AD74 /* SupplyHeroProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBF3265928400080AD74 /* SupplyHeroProtocol.swift */; };
 		A15DDBFC265964B10080AD74 /* gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A15DDBFB265964B10080AD74 /* gif1.gif */; };
+		A15DDBFE265AC6BB0080AD74 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBFD265AC6BB0080AD74 /* iOSDevCenters+GIF.swift */; };
 		A185AEA32657C65500DAA4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEA22657C65500DAA4CA /* AppDelegate.swift */; };
 		A185AEA52657C65500DAA4CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEA42657C65500DAA4CA /* SceneDelegate.swift */; };
 		A185AEA72657C65500DAA4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEA62657C65500DAA4CA /* ViewController.swift */; };
@@ -74,6 +75,7 @@
 		A15DDBF1265923960080AD74 /* ConnectionCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCVCell.swift; sourceTree = "<group>"; };
 		A15DDBF3265928400080AD74 /* SupplyHeroProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplyHeroProtocol.swift; sourceTree = "<group>"; };
 		A15DDBFB265964B10080AD74 /* gif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif1.gif; sourceTree = SOURCE_ROOT; };
+		A15DDBFD265AC6BB0080AD74 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		A185AE9F2657C65500DAA4CA /* Poalim-SuperHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poalim-SuperHero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A185AEA22657C65500DAA4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A185AEA42657C65500DAA4CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 		A185AED52657CC5800DAA4CA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A15DDBFD265AC6BB0080AD74 /* iOSDevCenters+GIF.swift */,
 				A15DDBEB2658FCA20080AD74 /* ApiManager.swift */,
 				A15DDBF3265928400080AD74 /* SupplyHeroProtocol.swift */,
 			);
@@ -503,6 +506,7 @@
 				A15DDBF0265923720080AD74 /* HeroAppearanceCVCell.swift in Sources */,
 				A185AEE72657D9BF00DAA4CA /* HeroInfoVC.swift in Sources */,
 				A15DDBF2265923960080AD74 /* ConnectionCVCell.swift in Sources */,
+				A15DDBFE265AC6BB0080AD74 /* iOSDevCenters+GIF.swift in Sources */,
 				A15DDBEC2658FCA20080AD74 /* ApiManager.swift in Sources */,
 				A15DDBEA2658FB130080AD74 /* SuperHeroSearchModel.swift in Sources */,
 				A185AED92657D13900DAA4CA /* SuggestTableViewCell.swift in Sources */,

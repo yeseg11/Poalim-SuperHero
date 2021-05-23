@@ -27,12 +27,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var searchTableView: UITableView!
     @IBOutlet weak var suggestTableView: UITableView!
     
+    @IBOutlet weak var firstLoadImg: UIImageView!
     
     //Random 3 suggested heros 
     let suggestArrIds = [String(Int.random(in: 1...731)),String(Int.random(in: 1...731)),String(Int.random(in: 1...731))]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let jeremyGif = UIImage.gifImageWithName("gif1")
+//            let imageView = UIImageView(image: jeremyGif)
+            
+        self.firstLoadImg.image = jeremyGif
+        
+        
+        
         suggestTableView.register(UINib(nibName: "SuggestTableViewCell", bundle: nil), forCellReuseIdentifier: "SuggestTableViewCell")
         
         
@@ -58,12 +67,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     self.suggestTableView.reloadData()
                     self.loaderView.isHidden = true
                     self.loaderView.stopAnimating()
+                    self.firstLoadImg.isHidden = true
                     self.searchBar.isHidden = false
                     self.SuggestedHeroeslbl.isHidden = false
                     self.suggestTableView.isHidden = false
                 }
             }
         }
+        
+        
         
     }
 
