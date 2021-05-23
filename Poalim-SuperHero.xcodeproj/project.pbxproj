@@ -16,6 +16,10 @@
 		A15DDBF4265928400080AD74 /* SupplyHeroProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBF3265928400080AD74 /* SupplyHeroProtocol.swift */; };
 		A15DDBFC265964B10080AD74 /* gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A15DDBFB265964B10080AD74 /* gif1.gif */; };
 		A15DDBFE265AC6BB0080AD74 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBFD265AC6BB0080AD74 /* iOSDevCenters+GIF.swift */; };
+		A15DDC04265AD0AB0080AD74 /* IMG_3638.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A15DDC00265AD0AA0080AD74 /* IMG_3638.PNG */; };
+		A15DDC05265AD0AB0080AD74 /* IMG_3637.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A15DDC01265AD0AB0080AD74 /* IMG_3637.PNG */; };
+		A15DDC06265AD0AB0080AD74 /* IMG_3639.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A15DDC02265AD0AB0080AD74 /* IMG_3639.PNG */; };
+		A15DDC07265AD0AB0080AD74 /* IMG_3636.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A15DDC03265AD0AB0080AD74 /* IMG_3636.PNG */; };
 		A185AEA32657C65500DAA4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEA22657C65500DAA4CA /* AppDelegate.swift */; };
 		A185AEA52657C65500DAA4CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEA42657C65500DAA4CA /* SceneDelegate.swift */; };
 		A185AEA72657C65500DAA4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEA62657C65500DAA4CA /* ViewController.swift */; };
@@ -76,6 +80,10 @@
 		A15DDBF3265928400080AD74 /* SupplyHeroProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplyHeroProtocol.swift; sourceTree = "<group>"; };
 		A15DDBFB265964B10080AD74 /* gif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif1.gif; sourceTree = SOURCE_ROOT; };
 		A15DDBFD265AC6BB0080AD74 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		A15DDC00265AD0AA0080AD74 /* IMG_3638.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3638.PNG; sourceTree = "<group>"; };
+		A15DDC01265AD0AB0080AD74 /* IMG_3637.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3637.PNG; sourceTree = "<group>"; };
+		A15DDC02265AD0AB0080AD74 /* IMG_3639.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3639.PNG; sourceTree = "<group>"; };
+		A15DDC03265AD0AB0080AD74 /* IMG_3636.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3636.PNG; sourceTree = "<group>"; };
 		A185AE9F2657C65500DAA4CA /* Poalim-SuperHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poalim-SuperHero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A185AEA22657C65500DAA4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A185AEA42657C65500DAA4CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +166,17 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A15DDBFF265AD0130080AD74 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				A15DDC03265AD0AB0080AD74 /* IMG_3636.PNG */,
+				A15DDC01265AD0AB0080AD74 /* IMG_3637.PNG */,
+				A15DDC00265AD0AA0080AD74 /* IMG_3638.PNG */,
+				A15DDC02265AD0AB0080AD74 /* IMG_3639.PNG */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 		A185AE962657C65500DAA4CA = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +202,7 @@
 		A185AEA12657C65500DAA4CA /* Poalim-SuperHero */ = {
 			isa = PBXGroup;
 			children = (
+				A15DDBFF265AD0130080AD74 /* ScreenShots */,
 				A15DDBFB265964B10080AD74 /* gif1.gif */,
 				A15DDBE82658FADC0080AD74 /* Models */,
 				A185AEDF2657D93A00DAA4CA /* StoryBoards */,
@@ -367,10 +387,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A185AEB22657C65700DAA4CA /* LaunchScreen.storyboard in Resources */,
+				A15DDC04265AD0AB0080AD74 /* IMG_3638.PNG in Resources */,
 				A15DDBFC265964B10080AD74 /* gif1.gif in Resources */,
+				A15DDC06265AD0AB0080AD74 /* IMG_3639.PNG in Resources */,
 				A185AEAF2657C65700DAA4CA /* Assets.xcassets in Resources */,
 				A185AEDC2657D13900DAA4CA /* SuggestTableViewCell.xib in Resources */,
 				A185AEAA2657C65500DAA4CA /* Main.storyboard in Resources */,
+				A15DDC07265AD0AB0080AD74 /* IMG_3636.PNG in Resources */,
+				A15DDC05265AD0AB0080AD74 /* IMG_3637.PNG in Resources */,
 				A185AEE32657D99700DAA4CA /* HeroInfoStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
