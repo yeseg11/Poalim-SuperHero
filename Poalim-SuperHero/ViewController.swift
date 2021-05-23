@@ -137,8 +137,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        searchBar.endEditing(false)
+        searchBar.endEditing(true)
         self.searchTableView.isHidden = true
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar)  {
+        searchBar.resignFirstResponder()
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
