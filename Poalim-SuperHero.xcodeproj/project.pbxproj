@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15DDBE72658E9CB0080AD74 /* HeroPowerstatsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBE62658E9CB0080AD74 /* HeroPowerstatsCVCell.swift */; };
+		A15DDBEA2658FB130080AD74 /* SuperHeroSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBE92658FB130080AD74 /* SuperHeroSearchModel.swift */; };
+		A15DDBEC2658FCA20080AD74 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBEB2658FCA20080AD74 /* ApiManager.swift */; };
+		A15DDBEE265910560080AD74 /* ThumbTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBED265910560080AD74 /* ThumbTVCell.swift */; };
+		A15DDBF0265923720080AD74 /* HeroAppearanceCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBEF265923720080AD74 /* HeroAppearanceCVCell.swift */; };
+		A15DDBF2265923960080AD74 /* ConnectionCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBF1265923960080AD74 /* ConnectionCVCell.swift */; };
+		A15DDBF4265928400080AD74 /* SupplyHeroProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DDBF3265928400080AD74 /* SupplyHeroProtocol.swift */; };
+		A15DDBFC265964B10080AD74 /* gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A15DDBFB265964B10080AD74 /* gif1.gif */; };
+		A185AEA32657C65500DAA4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEA22657C65500DAA4CA /* AppDelegate.swift */; };
+		A185AEA52657C65500DAA4CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEA42657C65500DAA4CA /* SceneDelegate.swift */; };
+		A185AEA72657C65500DAA4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEA62657C65500DAA4CA /* ViewController.swift */; };
+		A185AEAA2657C65500DAA4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A185AEA82657C65500DAA4CA /* Main.storyboard */; };
+		A185AEAD2657C65500DAA4CA /* Poalim_SuperHero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A185AEAB2657C65500DAA4CA /* Poalim_SuperHero.xcdatamodeld */; };
+		A185AEAF2657C65700DAA4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A185AEAE2657C65700DAA4CA /* Assets.xcassets */; };
+		A185AEB22657C65700DAA4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A185AEB02657C65700DAA4CA /* LaunchScreen.storyboard */; };
+		A185AEBD2657C65700DAA4CA /* Poalim_SuperHeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEBC2657C65700DAA4CA /* Poalim_SuperHeroTests.swift */; };
+		A185AEC82657C65700DAA4CA /* Poalim_SuperHeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEC72657C65700DAA4CA /* Poalim_SuperHeroUITests.swift */; };
+		A185AED92657D13900DAA4CA /* SuggestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AED72657D13900DAA4CA /* SuggestTableViewCell.swift */; };
+		A185AEDA2657D13900DAA4CA /* SuggestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AED72657D13900DAA4CA /* SuggestTableViewCell.swift */; };
+		A185AEDB2657D13900DAA4CA /* SuggestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AED72657D13900DAA4CA /* SuggestTableViewCell.swift */; };
+		A185AEDC2657D13900DAA4CA /* SuggestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A185AED82657D13900DAA4CA /* SuggestTableViewCell.xib */; };
+		A185AEDD2657D13900DAA4CA /* SuggestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A185AED82657D13900DAA4CA /* SuggestTableViewCell.xib */; };
+		A185AEDE2657D13900DAA4CA /* SuggestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A185AED82657D13900DAA4CA /* SuggestTableViewCell.xib */; };
+		A185AEE32657D99700DAA4CA /* HeroInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A185AEE22657D99700DAA4CA /* HeroInfoStoryboard.storyboard */; };
+		A185AEE42657D99700DAA4CA /* HeroInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A185AEE22657D99700DAA4CA /* HeroInfoStoryboard.storyboard */; };
+		A185AEE52657D99700DAA4CA /* HeroInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A185AEE22657D99700DAA4CA /* HeroInfoStoryboard.storyboard */; };
+		A185AEE72657D9BF00DAA4CA /* HeroInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEE62657D9BF00DAA4CA /* HeroInfoVC.swift */; };
+		A185AEE82657D9BF00DAA4CA /* HeroInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEE62657D9BF00DAA4CA /* HeroInfoVC.swift */; };
+		A185AEE92657D9BF00DAA4CA /* HeroInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185AEE62657D9BF00DAA4CA /* HeroInfoVC.swift */; };
+		ADA2F531880EE4094DCB3596 /* Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56BE88443694C7BC0DFC905 /* Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework */; };
+		D7D159D42B536976B821F344 /* Pods_Poalim_SuperHero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD3413469760295B2DB1E98 /* Pods_Poalim_SuperHero.framework */; };
+		E7A3F4CFB4811A451004EB9F /* Pods_Poalim_SuperHeroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0839654D78613C12BBB57FEF /* Pods_Poalim_SuperHeroTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A185AEB92657C65700DAA4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A185AE972657C65500DAA4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A185AE9E2657C65500DAA4CA;
+			remoteInfo = "Poalim-SuperHero";
+		};
+		A185AEC42657C65700DAA4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A185AE972657C65500DAA4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A185AE9E2657C65500DAA4CA;
+			remoteInfo = "Poalim-SuperHero";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0839654D78613C12BBB57FEF /* Pods_Poalim_SuperHeroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poalim_SuperHeroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC974F53BF87323860FD56E /* Pods-Poalim-SuperHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poalim-SuperHero.release.xcconfig"; path = "Target Support Files/Pods-Poalim-SuperHero/Pods-Poalim-SuperHero.release.xcconfig"; sourceTree = "<group>"; };
+		2AD3413469760295B2DB1E98 /* Pods_Poalim_SuperHero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poalim_SuperHero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F099B4DB7CD9463ECBEA68D /* Pods-Poalim-SuperHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poalim-SuperHero.debug.xcconfig"; path = "Target Support Files/Pods-Poalim-SuperHero/Pods-Poalim-SuperHero.debug.xcconfig"; sourceTree = "<group>"; };
+		4AD93D1D30F80A6C71084A7A /* Pods-Poalim-SuperHeroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poalim-SuperHeroTests.release.xcconfig"; path = "Target Support Files/Pods-Poalim-SuperHeroTests/Pods-Poalim-SuperHeroTests.release.xcconfig"; sourceTree = "<group>"; };
+		827D8EEF5C5FADAAB88DA4CA /* Pods-Poalim-SuperHeroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poalim-SuperHeroTests.debug.xcconfig"; path = "Target Support Files/Pods-Poalim-SuperHeroTests/Pods-Poalim-SuperHeroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		831C312B4D505B9AA2FF7BA9 /* Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.release.xcconfig"; path = "Target Support Files/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A15DDBE62658E9CB0080AD74 /* HeroPowerstatsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroPowerstatsCVCell.swift; sourceTree = "<group>"; };
+		A15DDBE92658FB130080AD74 /* SuperHeroSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroSearchModel.swift; sourceTree = "<group>"; };
+		A15DDBEB2658FCA20080AD74 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		A15DDBED265910560080AD74 /* ThumbTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbTVCell.swift; sourceTree = "<group>"; };
+		A15DDBEF265923720080AD74 /* HeroAppearanceCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAppearanceCVCell.swift; sourceTree = "<group>"; };
+		A15DDBF1265923960080AD74 /* ConnectionCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCVCell.swift; sourceTree = "<group>"; };
+		A15DDBF3265928400080AD74 /* SupplyHeroProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplyHeroProtocol.swift; sourceTree = "<group>"; };
+		A15DDBFB265964B10080AD74 /* gif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif1.gif; sourceTree = SOURCE_ROOT; };
+		A185AE9F2657C65500DAA4CA /* Poalim-SuperHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poalim-SuperHero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A185AEA22657C65500DAA4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A185AEA42657C65500DAA4CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A185AEA62657C65500DAA4CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A185AEA92657C65500DAA4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A185AEAC2657C65500DAA4CA /* Poalim_SuperHero.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poalim_SuperHero.xcdatamodel; sourceTree = "<group>"; };
+		A185AEAE2657C65700DAA4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A185AEB12657C65700DAA4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A185AEB32657C65700DAA4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A185AEB82657C65700DAA4CA /* Poalim-SuperHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poalim-SuperHeroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A185AEBC2657C65700DAA4CA /* Poalim_SuperHeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poalim_SuperHeroTests.swift; sourceTree = "<group>"; };
+		A185AEBE2657C65700DAA4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A185AEC32657C65700DAA4CA /* Poalim-SuperHeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poalim-SuperHeroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A185AEC72657C65700DAA4CA /* Poalim_SuperHeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poalim_SuperHeroUITests.swift; sourceTree = "<group>"; };
+		A185AEC92657C65700DAA4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A185AED72657D13900DAA4CA /* SuggestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestTableViewCell.swift; sourceTree = "<group>"; };
+		A185AED82657D13900DAA4CA /* SuggestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestTableViewCell.xib; sourceTree = "<group>"; };
+		A185AEE22657D99700DAA4CA /* HeroInfoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HeroInfoStoryboard.storyboard; sourceTree = "<group>"; };
+		A185AEE62657D9BF00DAA4CA /* HeroInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroInfoVC.swift; sourceTree = "<group>"; };
+		E56BE88443694C7BC0DFC905 /* Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AB0B43E765D654276DE7E3 /* Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.debug.xcconfig"; path = "Target Support Files/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A185AE9C2657C65500DAA4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D159D42B536976B821F344 /* Pods_Poalim_SuperHero.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185AEB52657C65700DAA4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A3F4CFB4811A451004EB9F /* Pods_Poalim_SuperHeroTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185AEC02657C65700DAA4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA2F531880EE4094DCB3596 /* Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C535BCFD2B8A92F7C2D0F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3413469760295B2DB1E98 /* Pods_Poalim_SuperHero.framework */,
+				E56BE88443694C7BC0DFC905 /* Pods_Poalim_SuperHero_Poalim_SuperHeroUITests.framework */,
+				0839654D78613C12BBB57FEF /* Pods_Poalim_SuperHeroTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A9C819A3C18761EF5ECD431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F099B4DB7CD9463ECBEA68D /* Pods-Poalim-SuperHero.debug.xcconfig */,
+				0BC974F53BF87323860FD56E /* Pods-Poalim-SuperHero.release.xcconfig */,
+				F1AB0B43E765D654276DE7E3 /* Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.debug.xcconfig */,
+				831C312B4D505B9AA2FF7BA9 /* Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.release.xcconfig */,
+				827D8EEF5C5FADAAB88DA4CA /* Pods-Poalim-SuperHeroTests.debug.xcconfig */,
+				4AD93D1D30F80A6C71084A7A /* Pods-Poalim-SuperHeroTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A15DDBE82658FADC0080AD74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A15DDBE92658FB130080AD74 /* SuperHeroSearchModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A185AE962657C65500DAA4CA = {
+			isa = PBXGroup;
+			children = (
+				A185AEA12657C65500DAA4CA /* Poalim-SuperHero */,
+				A185AEBB2657C65700DAA4CA /* Poalim-SuperHeroTests */,
+				A185AEC62657C65700DAA4CA /* Poalim-SuperHeroUITests */,
+				A185AEA02657C65500DAA4CA /* Products */,
+				8A9C819A3C18761EF5ECD431 /* Pods */,
+				72C535BCFD2B8A92F7C2D0F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A185AEA02657C65500DAA4CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A185AE9F2657C65500DAA4CA /* Poalim-SuperHero.app */,
+				A185AEB82657C65700DAA4CA /* Poalim-SuperHeroTests.xctest */,
+				A185AEC32657C65700DAA4CA /* Poalim-SuperHeroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A185AEA12657C65500DAA4CA /* Poalim-SuperHero */ = {
+			isa = PBXGroup;
+			children = (
+				A15DDBFB265964B10080AD74 /* gif1.gif */,
+				A15DDBE82658FADC0080AD74 /* Models */,
+				A185AEDF2657D93A00DAA4CA /* StoryBoards */,
+				A185AED62657D0BC00DAA4CA /* Cells */,
+				A185AED52657CC5800DAA4CA /* Utilities */,
+				A185AEA22657C65500DAA4CA /* AppDelegate.swift */,
+				A185AEA42657C65500DAA4CA /* SceneDelegate.swift */,
+				A185AEA62657C65500DAA4CA /* ViewController.swift */,
+				A185AEA82657C65500DAA4CA /* Main.storyboard */,
+				A185AEAE2657C65700DAA4CA /* Assets.xcassets */,
+				A185AEB02657C65700DAA4CA /* LaunchScreen.storyboard */,
+				A185AEB32657C65700DAA4CA /* Info.plist */,
+				A185AEAB2657C65500DAA4CA /* Poalim_SuperHero.xcdatamodeld */,
+			);
+			path = "Poalim-SuperHero";
+			sourceTree = "<group>";
+		};
+		A185AEBB2657C65700DAA4CA /* Poalim-SuperHeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				A185AEBC2657C65700DAA4CA /* Poalim_SuperHeroTests.swift */,
+				A185AEBE2657C65700DAA4CA /* Info.plist */,
+			);
+			path = "Poalim-SuperHeroTests";
+			sourceTree = "<group>";
+		};
+		A185AEC62657C65700DAA4CA /* Poalim-SuperHeroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A185AEC72657C65700DAA4CA /* Poalim_SuperHeroUITests.swift */,
+				A185AEC92657C65700DAA4CA /* Info.plist */,
+			);
+			path = "Poalim-SuperHeroUITests";
+			sourceTree = "<group>";
+		};
+		A185AED52657CC5800DAA4CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A15DDBEB2658FCA20080AD74 /* ApiManager.swift */,
+				A15DDBF3265928400080AD74 /* SupplyHeroProtocol.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A185AED62657D0BC00DAA4CA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A185AED72657D13900DAA4CA /* SuggestTableViewCell.swift */,
+				A185AED82657D13900DAA4CA /* SuggestTableViewCell.xib */,
+				A15DDBE62658E9CB0080AD74 /* HeroPowerstatsCVCell.swift */,
+				A15DDBED265910560080AD74 /* ThumbTVCell.swift */,
+				A15DDBEF265923720080AD74 /* HeroAppearanceCVCell.swift */,
+				A15DDBF1265923960080AD74 /* ConnectionCVCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A185AEDF2657D93A00DAA4CA /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A185AEE12657D97800DAA4CA /* HeroInfo */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		A185AEE12657D97800DAA4CA /* HeroInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A185AEE22657D99700DAA4CA /* HeroInfoStoryboard.storyboard */,
+				A185AEE62657D9BF00DAA4CA /* HeroInfoVC.swift */,
+			);
+			path = HeroInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A185AE9E2657C65500DAA4CA /* Poalim-SuperHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A185AECC2657C65700DAA4CA /* Build configuration list for PBXNativeTarget "Poalim-SuperHero" */;
+			buildPhases = (
+				BB0B21848A6F875418A530EE /* [CP] Check Pods Manifest.lock */,
+				A185AE9B2657C65500DAA4CA /* Sources */,
+				A185AE9C2657C65500DAA4CA /* Frameworks */,
+				A185AE9D2657C65500DAA4CA /* Resources */,
+				6F484C2B013D823228B02325 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poalim-SuperHero";
+			productName = "Poalim-SuperHero";
+			productReference = A185AE9F2657C65500DAA4CA /* Poalim-SuperHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A185AEB72657C65700DAA4CA /* Poalim-SuperHeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A185AECF2657C65700DAA4CA /* Build configuration list for PBXNativeTarget "Poalim-SuperHeroTests" */;
+			buildPhases = (
+				31D3D6D71E284574B0A552D6 /* [CP] Check Pods Manifest.lock */,
+				A185AEB42657C65700DAA4CA /* Sources */,
+				A185AEB52657C65700DAA4CA /* Frameworks */,
+				A185AEB62657C65700DAA4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A185AEBA2657C65700DAA4CA /* PBXTargetDependency */,
+			);
+			name = "Poalim-SuperHeroTests";
+			productName = "Poalim-SuperHeroTests";
+			productReference = A185AEB82657C65700DAA4CA /* Poalim-SuperHeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A185AEC22657C65700DAA4CA /* Poalim-SuperHeroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A185AED22657C65700DAA4CA /* Build configuration list for PBXNativeTarget "Poalim-SuperHeroUITests" */;
+			buildPhases = (
+				0255DE4FDA23E46D708C138C /* [CP] Check Pods Manifest.lock */,
+				A185AEBF2657C65700DAA4CA /* Sources */,
+				A185AEC02657C65700DAA4CA /* Frameworks */,
+				A185AEC12657C65700DAA4CA /* Resources */,
+				877640F56168A794EE71AB9B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A185AEC52657C65700DAA4CA /* PBXTargetDependency */,
+			);
+			name = "Poalim-SuperHeroUITests";
+			productName = "Poalim-SuperHeroUITests";
+			productReference = A185AEC32657C65700DAA4CA /* Poalim-SuperHeroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A185AE972657C65500DAA4CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A185AE9E2657C65500DAA4CA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A185AEB72657C65700DAA4CA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A185AE9E2657C65500DAA4CA;
+					};
+					A185AEC22657C65700DAA4CA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A185AE9E2657C65500DAA4CA;
+					};
+				};
+			};
+			buildConfigurationList = A185AE9A2657C65500DAA4CA /* Build configuration list for PBXProject "Poalim-SuperHero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A185AE962657C65500DAA4CA;
+			productRefGroup = A185AEA02657C65500DAA4CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A185AE9E2657C65500DAA4CA /* Poalim-SuperHero */,
+				A185AEB72657C65700DAA4CA /* Poalim-SuperHeroTests */,
+				A185AEC22657C65700DAA4CA /* Poalim-SuperHeroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A185AE9D2657C65500DAA4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185AEB22657C65700DAA4CA /* LaunchScreen.storyboard in Resources */,
+				A15DDBFC265964B10080AD74 /* gif1.gif in Resources */,
+				A185AEAF2657C65700DAA4CA /* Assets.xcassets in Resources */,
+				A185AEDC2657D13900DAA4CA /* SuggestTableViewCell.xib in Resources */,
+				A185AEAA2657C65500DAA4CA /* Main.storyboard in Resources */,
+				A185AEE32657D99700DAA4CA /* HeroInfoStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185AEB62657C65700DAA4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185AEDD2657D13900DAA4CA /* SuggestTableViewCell.xib in Resources */,
+				A185AEE42657D99700DAA4CA /* HeroInfoStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185AEC12657C65700DAA4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185AEDE2657D13900DAA4CA /* SuggestTableViewCell.xib in Resources */,
+				A185AEE52657D99700DAA4CA /* HeroInfoStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0255DE4FDA23E46D708C138C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31D3D6D71E284574B0A552D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Poalim-SuperHeroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F484C2B013D823228B02325 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Poalim-SuperHero/Pods-Poalim-SuperHero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Poalim-SuperHero/Pods-Poalim-SuperHero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Poalim-SuperHero/Pods-Poalim-SuperHero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		877640F56168A794EE71AB9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests/Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB0B21848A6F875418A530EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Poalim-SuperHero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A185AE9B2657C65500DAA4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15DDBF0265923720080AD74 /* HeroAppearanceCVCell.swift in Sources */,
+				A185AEE72657D9BF00DAA4CA /* HeroInfoVC.swift in Sources */,
+				A15DDBF2265923960080AD74 /* ConnectionCVCell.swift in Sources */,
+				A15DDBEC2658FCA20080AD74 /* ApiManager.swift in Sources */,
+				A15DDBEA2658FB130080AD74 /* SuperHeroSearchModel.swift in Sources */,
+				A185AED92657D13900DAA4CA /* SuggestTableViewCell.swift in Sources */,
+				A15DDBEE265910560080AD74 /* ThumbTVCell.swift in Sources */,
+				A185AEA72657C65500DAA4CA /* ViewController.swift in Sources */,
+				A15DDBE72658E9CB0080AD74 /* HeroPowerstatsCVCell.swift in Sources */,
+				A185AEA32657C65500DAA4CA /* AppDelegate.swift in Sources */,
+				A185AEA52657C65500DAA4CA /* SceneDelegate.swift in Sources */,
+				A15DDBF4265928400080AD74 /* SupplyHeroProtocol.swift in Sources */,
+				A185AEAD2657C65500DAA4CA /* Poalim_SuperHero.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185AEB42657C65700DAA4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185AEE82657D9BF00DAA4CA /* HeroInfoVC.swift in Sources */,
+				A185AEDA2657D13900DAA4CA /* SuggestTableViewCell.swift in Sources */,
+				A185AEBD2657C65700DAA4CA /* Poalim_SuperHeroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185AEBF2657C65700DAA4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185AEE92657D9BF00DAA4CA /* HeroInfoVC.swift in Sources */,
+				A185AEDB2657D13900DAA4CA /* SuggestTableViewCell.swift in Sources */,
+				A185AEC82657C65700DAA4CA /* Poalim_SuperHeroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A185AEBA2657C65700DAA4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A185AE9E2657C65500DAA4CA /* Poalim-SuperHero */;
+			targetProxy = A185AEB92657C65700DAA4CA /* PBXContainerItemProxy */;
+		};
+		A185AEC52657C65700DAA4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A185AE9E2657C65500DAA4CA /* Poalim-SuperHero */;
+			targetProxy = A185AEC42657C65700DAA4CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A185AEA82657C65500DAA4CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A185AEA92657C65500DAA4CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A185AEB02657C65700DAA4CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A185AEB12657C65700DAA4CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A185AECA2657C65700DAA4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A185AECB2657C65700DAA4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A185AECD2657C65700DAA4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F099B4DB7CD9463ECBEA68D /* Pods-Poalim-SuperHero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5RS964L4J;
+				INFOPLIST_FILE = "Poalim-SuperHero/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SaH.Poalim-SuperHero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A185AECE2657C65700DAA4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC974F53BF87323860FD56E /* Pods-Poalim-SuperHero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5RS964L4J;
+				INFOPLIST_FILE = "Poalim-SuperHero/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SaH.Poalim-SuperHero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A185AED02657C65700DAA4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827D8EEF5C5FADAAB88DA4CA /* Pods-Poalim-SuperHeroTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5RS964L4J;
+				INFOPLIST_FILE = "Poalim-SuperHeroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SaH.Poalim-SuperHeroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poalim-SuperHero.app/Poalim-SuperHero";
+			};
+			name = Debug;
+		};
+		A185AED12657C65700DAA4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD93D1D30F80A6C71084A7A /* Pods-Poalim-SuperHeroTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5RS964L4J;
+				INFOPLIST_FILE = "Poalim-SuperHeroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SaH.Poalim-SuperHeroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poalim-SuperHero.app/Poalim-SuperHero";
+			};
+			name = Release;
+		};
+		A185AED32657C65700DAA4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AB0B43E765D654276DE7E3 /* Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5RS964L4J;
+				INFOPLIST_FILE = "Poalim-SuperHeroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SaH.Poalim-SuperHeroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poalim-SuperHero";
+			};
+			name = Debug;
+		};
+		A185AED42657C65700DAA4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831C312B4D505B9AA2FF7BA9 /* Pods-Poalim-SuperHero-Poalim-SuperHeroUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5RS964L4J;
+				INFOPLIST_FILE = "Poalim-SuperHeroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SaH.Poalim-SuperHeroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poalim-SuperHero";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A185AE9A2657C65500DAA4CA /* Build configuration list for PBXProject "Poalim-SuperHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A185AECA2657C65700DAA4CA /* Debug */,
+				A185AECB2657C65700DAA4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A185AECC2657C65700DAA4CA /* Build configuration list for PBXNativeTarget "Poalim-SuperHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A185AECD2657C65700DAA4CA /* Debug */,
+				A185AECE2657C65700DAA4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A185AECF2657C65700DAA4CA /* Build configuration list for PBXNativeTarget "Poalim-SuperHeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A185AED02657C65700DAA4CA /* Debug */,
+				A185AED12657C65700DAA4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A185AED22657C65700DAA4CA /* Build configuration list for PBXNativeTarget "Poalim-SuperHeroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A185AED32657C65700DAA4CA /* Debug */,
+				A185AED42657C65700DAA4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A185AEAB2657C65500DAA4CA /* Poalim_SuperHero.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A185AEAC2657C65500DAA4CA /* Poalim_SuperHero.xcdatamodel */,
+			);
+			currentVersion = A185AEAC2657C65500DAA4CA /* Poalim_SuperHero.xcdatamodel */;
+			path = Poalim_SuperHero.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A185AE972657C65500DAA4CA /* Project object */;
+}

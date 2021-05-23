@@ -1,0 +1,6 @@
+framework module Pods_Poalim_SuperHero_Poalim_SuperHeroUITests {
+  umbrella header "Pods-Poalim-SuperHero-Poalim-SuperHeroUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
